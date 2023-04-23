@@ -2,8 +2,8 @@
 
 create table book(
     bookid number primary key,
-    bookname varchar2(20),
-    publisher varchar2(20),
+    bookname varchar2(50),
+    publisher varchar2(50),
     price number
 );
 

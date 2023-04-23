@@ -3,7 +3,7 @@
 create table customer(
     custid number primary key,
     name varchar2(10),
-    address varchar2(30),
+    address varchar2(50),
     phone varchar2(15)
 );
 
